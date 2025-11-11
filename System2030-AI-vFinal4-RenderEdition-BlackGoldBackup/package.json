@@ -1,0 +1,16 @@
+{
+  "name": "system2030-ai",
+  "version": "4.0.0",
+  "description": "System 2030 AI - Render Edition with PostgreSQL, Backup and PDF",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pg": "^8.12.0",
+    "pdfkit": "^0.15.0"
+  }
+}

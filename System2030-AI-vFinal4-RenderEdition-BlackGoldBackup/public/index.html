@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>System 2030 AI – BlackGold</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>System 2030 AI <span>BlackGold Edition</span></h1>
+    <p class="subtitle">Render Edition vFinal.4</p>
+  </header>
+
+  <main id="login">
+    <h2>🔑 Logowanie</h2>
+    <input id="code" placeholder="Kod użytkownika (np. OP-001)" />
+    <button onclick="login()">Zaloguj</button>
+  </main>
+
+  <main id="panel" class="hidden">
+    <h2 id="roleTitle"></h2>
+    <div id="tabs"></div>
+    <div id="content"></div>
+    <button onclick="logout()">Wyloguj</button>
+  </main>
+
+  <footer>
+    <p>© 2025 System 2030 AI – BlackGold</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
