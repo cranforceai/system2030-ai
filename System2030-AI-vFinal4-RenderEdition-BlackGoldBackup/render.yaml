@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: system2030-ai
-    env: node
-    buildCommand: npm install
-    startCommand: node server.js
-    plan: free
